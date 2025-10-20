@@ -1,0 +1,6 @@
+Symbol,Rating,Score,F_Rating,F_Score,T_Signal,T_Score,Price,RSI,ROE,PE,D/E,Trend,Note
+VNM,BUY,4.0,GOOD,70.0,BUY,1,55.0,35.1,26.54937623,15.4852413555,0.5490957187,Downtrend,✓ Cơ bản và kỹ thuật đồng thuận
+HPG,HOLD,3.4,AVERAGE,58.333333333333336,BUY,1,26.05,32.3,11.55021804,16.199639802,0.9796135257,Downtrend,✓ Cơ bản và kỹ thuật đồng thuận
+FPT,AVOID,3.0,AVERAGE,60.0,HOLD,0,87.0,28.1,27.59904883,18.1449151761,1.0381340021,Downtrend,✓ Cơ bản và kỹ thuật đồng thuận
+VCB,AVOID,2.8,BELOW AVERAGE,46.666666666666664,BUY,1,59.4,33.0,17.218182239999997,15.2118214589,9.374936125,Downtrend,⚠️  Kỹ thuật tốt nhưng cơ bản yếu - Cẩn thận bẫy giá
+MWG,AVOID,2.6,POOR,31.666666666666664,STRONG BUY,3,80.9,54.2,17.04377974,25.4801462185,1.6985925592,Uptrend,⚠️  Kỹ thuật tốt nhưng cơ bản yếu - Cẩn thận bẫy giá
