@@ -20,15 +20,21 @@ for dir_path in [RAW_DATA_DIR, PROCESSED_DATA_DIR, CACHE_DIR]:
 
 # Danh sách cổ phiếu theo dõi (VN30 + một số mã khác)
 WATCHLIST = [
-    'VNM', 'VCB', 'VHM', 'VIC', 'GAS', 'HPG', 'TCB', 'MSN', 
+    'VNM', 'VCB', 'VHM', 'VIC', 'GAS', 'HPG', 'TCB',
     'BID', 'VPB', 'CTG', 'MWG', 'PLX', 'VRE', 'HDB',
     'SSI', 'MBB', 'FPT', 'STB', 'POW', 'ACB', 'VJC',
-    'GVR', 'PDR', 'SAB', 'VCI', 'TPB', 'REE'
+    'GVR', 'PDR', 'SAB', 'VCI', 'TPB', 'REE', 'VIX',
+    'GEX','EIB','MSB','KDH','DGC','REE','OCB','VND',
+    'POW','KBC','PNJ','GMD','VCI','HCM','NAB','FRT',
+    'SBT','DXG','VGC','PTB','PPC','AAA','BCG','ANV',
+    'BVS','DBC','DRC','DGW','GEG','NKG','NLG','PAN',
+    'TNG','PVT','CTR','CTD','CMC','MSN','PDR','HPG',
+    'SHB','HHV','VIB','HVN','NVL'
 ]
 
 # Tiêu chí sàng lọc cơ bản
 FUNDAMENTAL_CRITERIA = {
-    'min_market_cap': 5000,  # Tỷ đồng
+    'min_market_cap': 1000,  # Tỷ đồng
     'min_roe': 15,           # %
     'max_pe': 20,            # Lần
     'max_debt_to_equity': 2, # Lần
